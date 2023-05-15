@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "TODO Plugin",
+  "name_for_model": "todo",
+  "description_for_human": "Plugin for managing a TODO list. You can add, complete and list todos (all, search on term and search on due date)",
+  "description_for_model": "Plugin for managing a TODO list. You can add and complete TODOs. You can also list todos (all, search on term and search on due date)",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://localhost:7026/swagger/v1/swagger.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://localhost:7026/todo.png",
+  "contact_email": "ceggermont@xpirit.com",
+  "legal_info_url": "http://camiel.io/legal"
+}
